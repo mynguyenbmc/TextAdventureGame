@@ -185,7 +185,7 @@ public class Game {
                 // breadth first search!!!
                 search(current_state.name, "end");
             } else if (input.length() >= 7 && input.substring(0, 7).equals("restart")) {
-                Game game = new Game("/home/demo02/gameTEXT.txt");
+                Game game = new Game("src/gameTEXT.txt");
                 game.play();
             } else if (input.length() >= 9 && input.substring(0, 9).equals("inventory")) {
                 if (backpack.length() != 0) {

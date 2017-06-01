@@ -43,7 +43,7 @@ command::put carpet back::beneath carpet::basement::salt shaker
 command::go right::room 116::1st floor hallway::salt shaker
 command::go right::1st floor hallway::room 114::salt shaker
 command::go left::room 114::1st floor hallway::salt shaker
-command::use candle::dark passageway::3rd floor staircase::candle,salt shaker
+command::use candle::dark passageway::3rd floor staircase::candle, salt shaker
 command::go south::extinguished 2nd floor staircase::2nd floor hallway::salt shaker
 command::use rope::3rd floor staircase::2nd floor hallway::rope, salt shaker
 command::go downstairs::opened trap door::tunnels::salt shaker
